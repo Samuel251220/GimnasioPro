@@ -11,7 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>AGREGAR PRODUCTOS</title>
         <%@include file="../WEB-INF/template/HeadViewLinks.jspf" %>
-        <link  href="../css/BarraTipos.css" rel="stylesheet"/>
+        
         <link rel="stylesheet" href="../css/AgregarProdAdmin.css"/>
     </head>
     <body ng-app="app" ng-controller="appController">
@@ -147,6 +147,6 @@
     <!--Fin de código aqui-->
         <%@include file="../WEB-INF/template/FooterViewLinks.jspf" %>
         <script src="../js/AgregarProdAdmin.js"></script>
-        <script src="../js/BarraTipos.js" type="text/javascript"></script>
+        
     </body>
 </html>
