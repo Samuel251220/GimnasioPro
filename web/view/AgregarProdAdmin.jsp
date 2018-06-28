@@ -63,84 +63,88 @@
                 </div>
             </div>
         </div>
-        <!-- Modal PARA REGISTRAR-->
-        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-sm" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">REGISTRAR PRODUCTO</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label>Nombre :</label>
-                            <input type="text" id="nompro" class="form-control">
-                            <br>
-                            <label>Precio :</label>
-                            <input type="text" id="precio" class="form-control">
-                            <br>
-                            <label>Codigo :</label>
-                            <input type="text" id="codigo" class="form-control">
-                            <br>
-                            <label>Estado :</label>
-                            <input type="text" id="estado" class="form-control">
-                            <br>
-                            <label>Stock :</label>
-                            <input type="text" id="stock" class="form-control">
-                            
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary" id="savepro" ng-click="guardar()">Guardar Producto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--MODAL PARA EDITAR-->
-        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-sm" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title" id="exampleModalLabel">Editar Producto</h4>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <input type="hidden" id="edit_idPro" class="form-control">
-                            
-                            <label>Nombre :</label>
-                            <input type="text" id="edit_nompro" class="form-control">
-                            <br>
-                            <label>Precio :</label>
-                            <input type="text" id="edit_precio" class="form-control">
-                            <br>
-                            <label>Codigo :</label>
-                            <input type="text" id="edit_codigo" class="form-control">
-                            <br>
-                            <label>Estado :</label>
-                            <input type="text" id="edit_estado" class="form-control">
-                            <br>
-                            <label>Stock :</label>
-                            <input type="text" id="edit_stock" class="form-control">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                        <button type="button" class="btn btn-primary" id="editpro" ng-click="update()">Modifiar Producto</button>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
+        
         <!--De la barraTipos-->
     </div>
     </div>
-        <!--Fin de código aqui-->
         
+    <!-- Modal PARA REGISTRAR-->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">REGISTRAR PRODUCTO</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label>Nombre :</label>
+                        <input type="text" id="nompro" class="form-control">
+                        <br>
+                        <label>Precio :</label>
+                        <input type="text" id="precio" class="form-control">
+                        <br>
+                        <label>Codigo :</label>
+                        <input type="text" id="codigo" class="form-control">
+                        <br>
+                        <label>Estado :</label>
+                        <input type="text" id="estado" class="form-control">
+                        <br>
+                        <label>Stock :</label>
+                        <input type="text" id="stock" class="form-control">
+
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="savepro" ng-click="guardar()">Guardar Producto</button>
+                </div>
+            </div>
+        </div>
+    </div>   
+    <!--MODAL PARA EDITAR-->
+    <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Editar Producto</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="form-group">
+                        <input type="hidden" id="edit_idPro" class="form-control">
+
+                        <label>Nombre :</label>
+                        <input type="text" id="edit_nompro" class="form-control">
+                        <br>
+                        <label>Precio :</label>
+                        <input type="text" id="edit_precio" class="form-control">
+                        <br>
+                        <label>Codigo :</label>
+                        <input type="text" id="edit_codigo" class="form-control">
+                        <br>
+                        <label>Estado :</label>
+                        <input type="text" id="edit_estado" class="form-control">
+                        <br>
+                        <label>Stock :</label>
+                        <input type="text" id="edit_stock" class="form-control">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="editpro" ng-click="update()">Modifiar Producto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    <!--Fin de código aqui-->
         <%@include file="../WEB-INF/template/FooterViewLinks.jspf" %>
         <script src="../js/AgregarProdAdmin.js"></script>
         <script src="../js/BarraTipos.js" type="text/javascript"></script>
