@@ -13,6 +13,7 @@
         <%@include file="WEB-INF/template/HeadInicioLinks.jspf" %>
         <link rel="stylesheet" href="css/secion.css"/>
     </head>
+    
     <body style="background: linear-gradient(to right,#2b4b52,#00d1ff);">
         <div class="contentAll">
             <div class="imgL" style="background-image: url(img/login.jpg);">Iniciar sesion</div>
