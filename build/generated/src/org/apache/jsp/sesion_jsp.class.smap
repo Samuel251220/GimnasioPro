@@ -5,14 +5,14 @@ JSP
 *F
 + 0 sesion.jsp
 sesion.jsp
-+ 1 HeadMainLinks.jspf
-WEB-INF/template/HeadMainLinks.jspf
++ 1 HeadInicioLinks.jspf
+WEB-INF/template/HeadInicioLinks.jspf
 + 2 FooterInicioLinks.jspf
 WEB-INF/template/FooterInicioLinks.jspf
 *L
 5,9:50
-1#1,12:59
-13#0,32:71
-1#2,5:103
-44#0,5:108
+1#1,7:59
+13#0,33:66
+1#2,5:99
+45#0,5:104
 *E

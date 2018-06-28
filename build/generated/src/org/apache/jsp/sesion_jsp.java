@@ -13,7 +13,7 @@ public final class sesion_jsp extends org.apache.jasper.runtime.HttpJspBase
 
   static {
     _jspx_dependants = new java.util.ArrayList<String>(2);
-    _jspx_dependants.add("/WEB-INF/template/HeadMainLinks.jspf");
+    _jspx_dependants.add("/WEB-INF/template/HeadInicioLinks.jspf");
     _jspx_dependants.add("/WEB-INF/template/FooterInicioLinks.jspf");
   }
 
@@ -58,19 +58,15 @@ public final class sesion_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        ");
       out.write("\n");
       out.write("\n");
-      out.write("<link rel=\"stylesheet\" href=\"./css/bootstrap.min.css\">\n");
-      out.write("<link rel=\"stylesheet\" href=\"./css/nosotros.css\"/>\n");
-      out.write("<link rel=\"stylesheet\" href=\"./css/productos.css\"/>\n");
-      out.write("<link rel=\"stylesheet\" href=\"./css/registrate.css\"/>\n");
+      out.write("<link rel=\"stylesheet\" href=\"css/bootstrap.min.css\">\n");
       out.write("\n");
-      out.write("\n");
-      out.write("<link rel=\"stylesheet\" href=\"./css/inicio.css\"/>\n");
       out.write("\n");
       out.write("\n");
       out.write("\t");
       out.write("\n");
       out.write("        <link rel=\"stylesheet\" href=\"css/secion.css\"/>\n");
       out.write("    </head>\n");
+      out.write("    \n");
       out.write("    <body style=\"background: linear-gradient(to right,#2b4b52,#00d1ff);\">\n");
       out.write("        <div class=\"contentAll\">\n");
       out.write("            <div class=\"imgL\" style=\"background-image: url(img/login.jpg);\">Iniciar sesion</div>\n");
@@ -98,7 +94,7 @@ public final class sesion_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("                </form>\n");
       out.write("            </div>\n");
       out.write("        </div>\n");
-      out.write("        <script src=\"js/bootstrap.min.js\"></script>\n");
+      out.write("        \n");
       out.write("        ");
       out.write("\n");
       out.write("\n");
@@ -106,7 +102,7 @@ public final class sesion_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<script src=\"js/jquery-3.3.1.min.js\"></script>\n");
       out.write("<script src=\"js/bootstrap.min.js\"></script>");
       out.write(" \n");
-      out.write("      \n");
+      out.write("        <script src=\"js/bootstrap.min.js\"></script>\n");
       out.write("    </body>\n");
       out.write("</html>\n");
     } catch (Throwable t) {
