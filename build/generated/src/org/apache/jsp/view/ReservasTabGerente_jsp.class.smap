@@ -1,0 +1,18 @@
+SMAP
+ReservasTabGerente_jsp.java
+JSP
+*S JSP
+*F
++ 0 ReservasTabGerente.jsp
+view/ReservasTabGerente.jsp
++ 1 HeadViewLinks.jspf
+view/../WEB-INF/template/HeadViewLinks.jspf
++ 2 FooterViewLinks.jspf
+view/../WEB-INF/template/FooterViewLinks.jspf
+*L
+5,9:50
+1#1,3:59
+13#0,54:62
+1#2,4:116
+66#0,4:120
+*E

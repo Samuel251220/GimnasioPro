@@ -1,0 +1,76 @@
+
+.contentAll{
+  box-sizing: border-box;
+  width: 600px;
+  margin: auto;
+  color: #000;
+  background: #fff;
+  border-radius: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.imgL{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-size: cover;
+  height: 150px;
+  text-align: center;
+  line-height: 150px;
+  font-size: 50px;
+  color: #fff;
+}
+.formuDiv{
+  box-sizing: border-box;
+  border-bottom-left-radius: 10px;
+  border-bottom-radius: 10px;
+  height: 310px;
+  padding: 3% 0;
+}
+.divI{
+  margin: auto;
+  width: 70%;
+  margin-top: 30px;
+}
+.divI > label {
+  width: 20%;
+}
+.divI > .txt {
+  width: 70%;
+}
+.divO{
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+.divF {
+  margin-left: 120px;
+  cursor: pointer;
+  transition: all .5s ease;
+}
+.divF:hover{
+  color: #296d7e;
+  text-decoration: underline;
+}
+.txt{
+  border: none;
+  border-bottom: 2px solid #296d7e;
+}
+.divB{
+  width: 100%;
+  text-align: center;
+}
+.btnL{
+  border: none;
+  background: #FBB829;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2%;
+  font-size: 20px;
+}
+.checkS{
+  margin-left: 10px;
+  margin-bottom: 2px;
+}
+.divCheck{
+  width: 30%;
+}

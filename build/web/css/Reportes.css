@@ -1,0 +1,45 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.conteiner{
+  padding: 3%;
+}
+.busqueda{
+  width: 100%;
+  max-width: 900px;
+  padding: 3%;
+  display: flex;
+  margin: auto;
+}
+.cont{
+  width: 400px;
+  margin-left: 300px;
+}
+.stylish-input-group .input-group-addon{
+  background: white !important; 
+}
+.stylish-input-group .form-control{
+  border-right:0; 
+  box-shadow:0 0 0; 
+  border-color:#ccc;
+}
+.stylish-input-group button{
+  border:0;
+  background:transparent;
+}
+thead{
+  border-bottom: 4px solid #FBB829;
+}
+tbody > tr{
+  transition: all .5s ease;
+  cursor: pointer;
+}
+tbody > tr:hover{
+  background: #FBB829;
+}
+
+.tabla{
+    width: 90%;
+}
